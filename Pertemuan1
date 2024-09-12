@@ -1,0 +1,30 @@
+void main() {
+  print("Rio Jhonsen,");
+  
+  String sms = "Selamat anda memenangkan hadiah 100jt";
+ 
+  String plottwist = "Dipotong pajak 100%";
+  
+  String sms2 = sms + "\n" + plottwist;
+  
+  print(sms2);
+  
+  String sms3 = "$sms \n$plottwist" ;
+  
+  print(sms3);
+  
+  int umur = 17;
+  double tinggi = 1.75; //dalam meter
+  
+  print("umur : $umur Tahun");
+  print("Tinggi : $tinggi M");
+  
+  var angka = 45;
+  var nama = "Jhonsen";
+  
+  print(angka.runtimeType);
+  print(nama.runtimeType);
+  
+  
+  
+}
